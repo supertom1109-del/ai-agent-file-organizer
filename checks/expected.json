@@ -1,0 +1,72 @@
+{
+  "README.md": {
+    "decision": "protected",
+    "alternatives": [
+      "keep"
+    ]
+  },
+  "报告/调研报告_V1.md": {
+    "decision": "review_recycle",
+    "keeper": "报告/final.md"
+  },
+  "报告/final.md": {
+    "decision": "archive_copy",
+    "target_terms": [
+      "季度调研报告",
+      "V2"
+    ]
+  },
+  "归档候选/主题A/说明.md": {
+    "decision": "archive_copy",
+    "target_terms": [
+      "主题A"
+    ]
+  },
+  "归档候选/主题B/说明.md": {
+    "decision": "archive_copy",
+    "target_terms": [
+      "主题B"
+    ]
+  },
+  "发布/公众号/配图.txt": {
+    "decision": "keep"
+  },
+  "发布/客户交付/封面.txt": {
+    "decision": "keep"
+  },
+  "进行中/阶段结果.md": {
+    "decision": "defer"
+  },
+  "合同/合同_终版.md": {
+    "decision": "keep",
+    "alternatives": [
+      "protected"
+    ]
+  },
+  "合同/合同.md": {
+    "decision": "keep",
+    "alternatives": [
+      "protected"
+    ]
+  },
+  "工程/package.json": {
+    "decision": "protected"
+  },
+  "工程/public/index.html": {
+    "decision": "protected"
+  },
+  "交付/活动纪要.md": {
+    "decision": "keep",
+    "alternatives": [
+      "archive_copy"
+    ],
+    "target_terms": [
+      "活动纪要"
+    ]
+  },
+  "交付/活动纪要_副本.md": {
+    "decision": "review_recycle",
+    "keeper": "交付/活动纪要.md",
+    "same_content": true
+  }
+}

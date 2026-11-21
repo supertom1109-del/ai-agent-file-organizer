@@ -1,0 +1,40 @@
+{
+  "README.md": {
+    "decision": "protected",
+    "alternatives": [
+      "keep"
+    ]
+  },
+  "报告/季度复盘_V1.md": {
+    "decision": "defer"
+  },
+  "报告/季度复盘_V2.md": {
+    "decision": "defer"
+  },
+  "记录/项目交付纪要.md": {
+    "decision": "keep",
+    "alternatives": [
+      "archive_copy"
+    ],
+    "target_terms": [
+      "项目交付纪要"
+    ]
+  },
+  "记录/项目交付纪要_临时.md": {
+    "decision": "review_recycle",
+    "keeper": "记录/项目交付纪要.md",
+    "same_content": true
+  },
+  "方案/final.html": {
+    "decision": "archive_copy",
+    "target_terms": [
+      "社区活动执行方案"
+    ]
+  },
+  "工程/render.config.json": {
+    "decision": "protected"
+  },
+  "工程/assets/s01.txt": {
+    "decision": "protected"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "synthetic-project",
+  "private": true,
+  "main": "public/index.html"
+}
